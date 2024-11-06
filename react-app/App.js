@@ -11,7 +11,7 @@ import BoxScreen from './Menu/BoxScreen';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app! Testin</Text>
+      <Text>Open up App.js to start sssworking on your apsdasdsp! Testin</Text>
       <StatusBar style="auto" />
       <ExerciseScreen></ExerciseScreen>
       {/* <TestingApp></TestingApp>
