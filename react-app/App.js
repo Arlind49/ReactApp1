@@ -6,6 +6,7 @@ import ButtonScreen from './ButtonScreen';
 import MenuScreen from './Menu/MenuScreen';
 import StudentsScreen from './StudentsScreen';
 import BoxScreen from './Menu/BoxScreen';
+import DrawerNavigator from './DrawNavigator';
 
 
 export default function App() {
@@ -18,7 +19,9 @@ export default function App() {
       <ButtonScreen></ButtonScreen>
       <MenuScreen></MenuScreen> */}
       <StudentsScreen></StudentsScreen>
-
+<NavigationContainer>
+  <DrawerNavigator/>
+</NavigationContainer>
 
     </View>
   );
