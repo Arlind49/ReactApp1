@@ -1,16 +1,16 @@
 import React from "react";
 import { View, Text, Button, StyleSheet } from "react-native";
 
-const Home=({navigaion})=>{
+const About=({navigaion})=>{
     return(
         <View>
-            <Text>Welcome to home screen</Text>
+            <Text>Welcome to About screen</Text>
             <Button
-            title="Go to Detail"
+            title="Go to Detail page"
             onPress={()=>navigaion.navigate("Detail")}
 
             />
-             <Button
+            <Button
             title="Go to Home"
             onPress={()=>navigaion.navigate("Home")}
 
@@ -19,4 +19,4 @@ const Home=({navigaion})=>{
     )
 
 }
- export default Home;
+ export default About;
